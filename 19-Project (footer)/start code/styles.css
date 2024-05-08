@@ -1,4 +1,4 @@
-@import "./styleguide.css";
+@import './styleguide.css';
 
 .header {
   background-color: var(--common-white);
@@ -91,10 +91,10 @@
 @media (min-width: 1440px) {
   .longread {
     grid-template-areas:
-      "b b s"
-      "b b s"
-      "b b v"
-      "b b .";
+      'b b s'
+      'b b s'
+      'b b v'
+      'b b .';
     gap: 60px 24px;
   }
 
@@ -210,4 +210,11 @@
 .footer {
   padding: 16px;
   background-color: var(--blue-light);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  gap: 8px;
 }
